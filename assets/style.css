@@ -1,0 +1,166 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  color: white;
+}
+
+.shop {
+  font-size: x-large;
+}
+
+.icon-nav {
+  background-color: #E58411;
+  color: white;
+  right: -10px;
+  top: 5px;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+nav .collapse ul li a {
+  color: #B8BECD;
+}
+
+nav .collapse ul li a:hover {
+  color: #1572A1;
+}
+
+nav .collapse ul .active a {
+  color: black
+}
+
+.header-home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: unset;
+  position: relative;
+  background: #ffffff url(./images/home.png) repeat-x;
+}
+
+.header-home .content-home {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1084px;
+  color: white;
+}
+
+.header-home .content-home .header-pic h1.text-1 {
+  color: white;
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+  position: absolute;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-home .content-home .header-pic p.text-2 {
+  color: white;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-home .content-home .search .form-search {
+  background-color: transparent;
+  width: fit-content;
+  align-items: center;
+  border-radius: 42px;
+  color: white;
+}
+
+.header-home .content-home .search .icons {
+  background-color: #E58411;
+}
+
+.list {
+  background-color: #F7F7F7;
+}
+
+.sell {
+  font-weight: 900;
+}
+
+.items {
+  background-color: #EEEEEE;
+  width: 390px;
+  height: 57px;
+  border-radius: 44px;
+}
+
+.item a {
+  color: black;
+}
+
+.item:hover {
+  background-color: white;
+  border-radius: 44px;
+  width: 84px;
+  height: 45px;
+  text-align: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 900;
+}
+
+h5 {
+  font-weight: 900;
+}
+
+.titles {
+  color: #E58411;
+}
+
+i.stars {
+  color: #F6B76F;
+}
+
+.cards {
+  height: 441px;
+  border-radius: 20px;
+}
+
+.img-slide {
+  background-color: #FAFAFA;
+}
+
+.plus {
+  font-size: 28px;
+}
+
+.chevron {
+  font-size: 36px;
+}
+
+.check {
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #F7F7F7;
+}
