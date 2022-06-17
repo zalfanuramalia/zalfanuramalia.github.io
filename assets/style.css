@@ -120,6 +120,7 @@ nav .collapse ul .active a {
   border-radius: 44px;
   width: min-content;
   height: 37px;
+  color: black;
 }
 
 .item .nav-link {
@@ -165,6 +166,11 @@ i.stars {
 
 .footer {
   background-color: #F7F7F7;
+}
+
+.footers {
+  font-weight: 900;
+  font-size: 24px;
 }
 
 @media(min-width: 500px) {
