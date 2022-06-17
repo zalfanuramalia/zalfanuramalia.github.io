@@ -106,7 +106,7 @@ nav .collapse ul .active a {
 
 .items {
   background-color: #EEEEEE;
-  width: 390px;
+  width: 500px;
   height: 57px;
   border-radius: 44px;
 }
@@ -115,13 +115,15 @@ nav .collapse ul .active a {
   color: black;
 }
 
-.item:hover {
+.nav-link:hover {
   background-color: white;
   border-radius: 44px;
-  width: 84px;
-  height: 45px;
-  text-align: center;
-  align-items: center;
+  width: min-content;
+  height: 37px;
+}
+
+.item .nav-link {
+  border-radius: 44px;
 }
 
 .title {

@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap" rel="stylesheet">
     <!--Custom CSS-->
     <link rel="stylesheet" href="./assets/style.css">
+    
 </head>
 <body>
   <header class="header-home">
@@ -113,15 +114,15 @@
         <h1 class="text-center sell">Best Selling Product</h1>
       </div>
       <div class="d-flex justify-content-center align-items-center my-5">
-        <ul class="nav items d-flex justify-content-center align-items-center">
-          <li class="active d-flex justify-content-center px-4 item"><a class="active actived" data-toggle="tab" href="#chair">Chair</a></li>
-          <li class="px-4 d-flex justify-content-center item"><a data-toggle="tab" href="#beds">Beds</a></li>
-          <li class="px-4 d-flex justify-content-center item"><a data-toggle="tab" href="#sofa">Sofa</a></li>
-          <li class="px-4 d-flex justify-content-center item"><a data-toggle="tab" href="#lamp">Lamp</a></li>
+        <ul class="nav nav-tabs items d-flex justify-content-center align-items-center" id="myTab">
+          <li class="active d-flex justify-content-center px-4 item"><a class="nav-link active actived" data-toggle="tab" href="#chair">Chair</a></li>
+          <li class="px-4 d-flex justify-content-center item"><a class="nav-link" data-toggle="tab" href="#beds">Beds</a></li>
+          <li class="px-4 d-flex justify-content-center item"><a class="nav-link" data-toggle="tab" href="#sofa">Sofa</a></li>
+          <li class="px-4 d-flex justify-content-center item"><a class="nav-link" data-toggle="tab" href="#lamp">Lamp</a></li>
         </ul>
       </div>
       <div class="tab-content">
-        <div id="chair" class="tab-pane active">
+        <div id="chair" class="tab-pane fade show active">
           <div class="d-flex justify-content-center align-items-center content">
             <span class="chevron" style="cursor: pointer"><i class="fa-solid fa-circle-arrow-left"></i></span>
             <div class="card cards mx-3 my-3">
@@ -221,10 +222,10 @@
             <div class="card cards mx-3">
               <div class="card-body">
                 <div class="img-slide my-3 mx-2">
-                  <img src="./assets/images/chair1.png" alt="logo" width="200px" height="250px">
+                  <img src="./assets/images/beds1.jfif" alt="logo" width="200px" height="250px">
                 </div>
-                <div>Chair</div>
-                <div>Sakarias Armchair</div>
+                <div>Beds</div>
+                <div>Series Armbeds</div>
                 <div className="stars text-left text-sm-start d-flex justify-content-justify">
                   <i class="fa-solid fa-star stars"></i>
                   <i class="fa-solid fa-star stars"></i>
