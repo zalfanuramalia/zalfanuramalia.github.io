@@ -115,7 +115,7 @@ nav .collapse ul .active a {
   color: black;
 }
 
-.nav-link:hover {
+.item .nav-link:hover {
   background-color: white;
   border-radius: 44px;
   width: min-content;
@@ -125,6 +125,14 @@ nav .collapse ul .active a {
 
 .item .nav-link {
   border-radius: 44px;
+}
+
+.dropdown .nav-link {
+  color: white;
+}
+
+.dropdown .nav-link:hover {
+  color: #E58411;
 }
 
 .title {
